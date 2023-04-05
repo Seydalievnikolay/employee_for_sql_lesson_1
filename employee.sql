@@ -15,6 +15,7 @@ SELECT*FROM employee;
 UPDATE employee SET first_name = 'Evgeniy' WHERE id = 1;
 UPDATE employee SET last_name = 'Kharitonov' WHERE id = 1;
 UPDATE employee SET gender = 'M' WHERE id = 1;
+UPDATE employee SET age = 18 WHERE id = 1;
 SELECT*FROM employee;
 DELETE FROM employee WHERE id = 1;
 SELECT*FROM employee;
